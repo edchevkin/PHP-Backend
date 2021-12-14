@@ -1,5 +1,4 @@
 <?php
-var_dump($_GET);
 
 if ($_GET["type"] == "by_speciality") {
     $table = students_by_speciality($_GET["speciality_name"]);
