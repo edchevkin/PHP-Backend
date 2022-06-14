@@ -2,7 +2,7 @@
 session_start();
 try{
     if ($_SERVER['REQUEST_METHOD'] != 'POST'){
-        error_log('api: wrong request method', 3, $destination = 'log/error.log');
+        error_log('api: wrong request method'.PHP_EOL, 3, $destination = 'log/error.log');
         die(http_response_code(400));
     }
     if (!array_key_exists('name', $_POST) || empty($_POST['name']) ||
