@@ -1,0 +1,38 @@
+LOG type(5) [20.06.2022 04:06:17]: already logged out at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 80
+LOG type(5) [20.06.2022 04:06:20]: already logged out at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 80
+LOG type(5) [20.06.2022 04:06:27]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 29
+LOG type(5) [20.06.2022 04:06:36]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 29
+LOG type(5) [20.06.2022 04:06:53]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 29
+LOG type(5) [20.06.2022 04:06:08]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 29
+LOG type(5) [20.06.2022 04:06:31]: msg: a param is wrong. Check them again at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 104
+LOG type(5) [20.06.2022 04:06:33]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 135
+LOG type(5) [20.06.2022 04:06:45]: msg: wrong id or no id given at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 44
+LOG type(5) [20.06.2022 04:06:47]: msg: wrong request message at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 77
+LOG type(5) [20.06.2022 04:06:01]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 220
+LOG type(5) [20.06.2022 04:06:03]: msg: there is a typo in one of the optional param name at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 160
+LOG type(5) [20.06.2022 04:06:11]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 263
+LOG type(5) [20.06.2022 04:06:13]: msg: there is a typo in id param name or no id given at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 245
+LOG type(5) [20.06.2022 04:06:23]: msg: there is a typo in id param name or no id given at E:\project-seminar-chevkin\final1\safeplace\App\Controller\FilmsClass.php line 42
+LOG type(5) [20.06.2022 04:06:25]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\FilmsClass.php line 75
+LOG type(5) [20.06.2022 04:06:31]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\FilmsClass.php line 27
+LOG type(5) [20.06.2022 04:06:37]: msg: there is an optional param missing or there is a typo in ones name at E:\project-seminar-chevkin\final1\safeplace\App\Controller\FilmsClass.php line 104
+LOG type(5) [20.06.2022 04:06:39]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\FilmsClass.php line 128
+LOG type(5) [20.06.2022 04:06:46]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\FilmsClass.php line 211
+LOG type(5) [20.06.2022 04:06:59]: msg: there must be a typo in params name at E:\project-seminar-chevkin\final1\safeplace\App\Controller\FilmsClass.php line 153
+LOG type(5) [20.06.2022 04:06:05]: msg: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\FilmsClass.php line 259
+LOG type(5) [20.06.2022 04:06:07]: msg: there is a typo in id param name or no id given at E:\project-seminar-chevkin\final1\safeplace\App\Controller\FilmsClass.php line 239
+LOG type(5) [20.06.2022 04:06:19]: no password specified in login request at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 91
+LOG type(5) [20.06.2022 04:06:59]: no password specified in login request at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 70
+LOG type(5) [20.06.2022 04:06:13]: no password specified in login request at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 70
+LOG type(5) [20.06.2022 04:06:43]: wrong request method at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 70
+LOG type(5) [20.06.2022 05:06:02]: already logged in at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 50
+LOG type(5) [20.06.2022 05:06:39]: no password specified in login request at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 91
+LOG type(5) [20.06.2022 05:06:08]: no password specified in login request at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 91
+LOG type(5) [20.06.2022 05:06:17]: already logged out at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 81
+LOG type(5) [20.06.2022 05:06:24]: already logged in at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 50
+LOG type(5) [20.06.2022 05:06:26]: already logged in at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 50
+LOG type(5) [20.06.2022 05:06:31]: already logged in at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 50
+LOG type(5) [20.06.2022 05:06:39]: msg: wrong request message at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 75
+LOG type(5) [20.06.2022 05:06:41]: msg: wrong id or no id given at E:\project-seminar-chevkin\final1\safeplace\App\Controller\ActorsClass.php line 42
+LOG type(5) [20.06.2022 05:06:24]: already logged in at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 50
+LOG type(5) [20.06.2022 05:06:35]: already logged out at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 81

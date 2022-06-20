@@ -1,0 +1,355 @@
+LOG type(5) [20.06.2022 04:06:24]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING (`ID_actor`); at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:24]: params: array (
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:49]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:49]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:38]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING (`ID_actor`); at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:38]: params: array (
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:23]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING (`ID_actor`); at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:23]: params: array (
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:33]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:33]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:41]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:41]: params: array (
+  ':login' => 'egorka',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:43]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:43]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:49]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING(`ID_actor`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:49]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:49]: query: SELECT
+                    `films`.*
+                FROM
+                    `actors`
+                LEFT JOIN `films-actors` USING(`ID_actor`)
+                LEFT JOIN `films` USING(`ID_film`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:49]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:50]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING(`ID_actor`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:50]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:50]: query: SELECT
+                    `films`.*
+                FROM
+                    `actors`
+                LEFT JOIN `films-actors` USING(`ID_actor`)
+                LEFT JOIN `films` USING(`ID_film`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:50]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:51]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING(`ID_actor`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:51]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:51]: query: SELECT
+                    `films`.*
+                FROM
+                    `actors`
+                LEFT JOIN `films-actors` USING(`ID_actor`)
+                LEFT JOIN `films` USING(`ID_film`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:51]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:52]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING(`ID_actor`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:52]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:52]: query: SELECT
+                    `films`.*
+                FROM
+                    `actors`
+                LEFT JOIN `films-actors` USING(`ID_actor`)
+                LEFT JOIN `films` USING(`ID_film`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:52]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:53]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING(`ID_actor`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:53]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:53]: query: SELECT
+                    `films`.*
+                FROM
+                    `actors`
+                LEFT JOIN `films-actors` USING(`ID_actor`)
+                LEFT JOIN `films` USING(`ID_film`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:53]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:54]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING(`ID_actor`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:54]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:54]: query: SELECT
+                    `films`.*
+                FROM
+                    `actors`
+                LEFT JOIN `films-actors` USING(`ID_actor`)
+                LEFT JOIN `films` USING(`ID_film`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:54]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:54]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING(`ID_actor`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:54]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 04:06:54]: query: SELECT
+                    `films`.*
+                FROM
+                    `actors`
+                LEFT JOIN `films-actors` USING(`ID_actor`)
+                LEFT JOIN `films` USING(`ID_film`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 04:06:54]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:06]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING (`ID_actor`); at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:06]: params: array (
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:30]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:30]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:32]: query: SELECT
+                    `actors`.*,
+                    `actors_family`.`partner`,
+                    `children`
+                FROM
+                    `actors`
+                LEFT JOIN `actors_family` USING(`ID_actor`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:32]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:32]: query: SELECT
+                    `films`.*
+                FROM
+                    `actors`
+                LEFT JOIN `films-actors` USING(`ID_actor`)
+                LEFT JOIN `films` USING(`ID_film`)
+                WHERE
+                    `actors`.`ID_actor` = :id; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:32]: params: array (
+  ':id' => '582',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:02]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:02]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:18]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:18]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:24]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:24]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:26]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:26]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:10]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:10]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:31]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:31]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:36]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:36]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:24]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:24]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:01]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:01]: params: array (
+  ':login' => 'egor',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25
+LOG type(5) [20.06.2022 05:06:07]: query: SELECT
+                    *
+                FROM
+                    `users`
+                WHERE
+                    `login` = :login; at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 24
+LOG type(5) [20.06.2022 05:06:07]: params: array (
+  ':login' => 'egorka',
+) at E:\project-seminar-chevkin\final1\safeplace\App\Controller\DBClass.php line 25

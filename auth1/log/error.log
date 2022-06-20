@@ -1,6 +1,0 @@
-logout: wrong request method
-login: wrong request type
-login: wrong login type or login has not been specified
-public_api: wrong request method
-public_api: no id specified
-api: wrong request methodapi: bad request params

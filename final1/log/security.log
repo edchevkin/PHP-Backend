@@ -1,0 +1,15 @@
+LOG type(5) [20.06.2022 04:06:30]: unauthorized attempt to access the getactor api at E:\project-seminar-chevkin\final1\safeplace\App\EventHandler.php line 52
+LOG type(5) [20.06.2022 04:06:33]: wrong password has been used for user egor at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 62
+LOG type(5) [20.06.2022 04:06:41]: nonexistent login has been used attempting to login at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 40
+LOG type(5) [20.06.2022 04:06:50]: no login specified in login request at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 13
+LOG type(5) [20.06.2022 04:06:43]: egor has logged in at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 56
+LOG type(5) [20.06.2022 05:06:17]: unauthorized attempt to access the getactor api at E:\project-seminar-chevkin\final1\safeplace\App\EventHandler.php line 52
+LOG type(5) [20.06.2022 05:06:30]: egor has logged in at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 56
+LOG type(5) [20.06.2022 05:06:18]: egor has logged in at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 56
+LOG type(5) [20.06.2022 05:06:10]: egor has logged in at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 56
+LOG type(5) [20.06.2022 05:06:38]: unauthorized attempt to access the getactor api at E:\project-seminar-chevkin\final1\safeplace\App\EventHandler.php line 52
+LOG type(5) [20.06.2022 05:06:32]: unauthorized attempt to access the getactor api at E:\project-seminar-chevkin\final1\safeplace\App\EventHandler.php line 52
+LOG type(5) [20.06.2022 05:06:36]: egor has logged in at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 56
+LOG type(5) [20.06.2022 05:06:01]: wrong password has been used for user egor at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 62
+LOG type(5) [20.06.2022 05:06:07]: nonexistent login has been used attempting to login at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 40
+LOG type(5) [20.06.2022 05:06:09]: no login specified in login request at E:\project-seminar-chevkin\final1\safeplace\App\Controller\AuthClass.php line 13

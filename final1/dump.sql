@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost
--- Время создания: Июн 14 2022 г., 20:11
+-- Время создания: Июн 20 2022 г., 05:34
 -- Версия сервера: 10.6.5-MariaDB
 -- Версия PHP: 7.4.24
 
@@ -177,7 +177,6 @@ INSERT INTO `actors` (`ID_actor`, `first_name`, `last_name`, `year_of_birth`, `c
 (186, 'Jane', 'Pink', 1978, 'Hungary', 2003),
 (187, 'Emily', 'Sand', 1977, 'Germany', 2017),
 (188, 'Daisy', 'Tan', 2002, 'Germany', 2020),
-(189, 'Florence', 'Mustard', 1975, 'UK', 2006),
 (190, 'Ann', 'Aqua', 1986, 'Switzerland', 2005),
 (191, 'Adam', 'Yellow', 1997, 'Portugal', 2016),
 (192, 'Jane', 'Aqua', 1995, 'Spain', 2019),
@@ -568,7 +567,8 @@ INSERT INTO `actors` (`ID_actor`, `first_name`, `last_name`, `year_of_birth`, `c
 (577, 'Emily', 'Gray', 1990, 'Poland', 2013),
 (578, 'Ada', 'Olive', 1986, 'France', 2016),
 (580, 'Pasha', 'Vasilyev', 1999, 'Russia', 2019),
-(581, 'Pasha', 'Vasilyev', 1999, 'Russia', 2019);
+(581, 'Pasha', 'Vasilyev', 1999, 'Russia', 2019),
+(582, 'Vasya', 'Nepupkin', 2002, 'unknown', 2008);
 
 -- --------------------------------------------------------
 
@@ -692,7 +692,6 @@ INSERT INTO `awards` (`ID_awards`, `ID_film`, `award`, `date`) VALUES
 (33, 11, 'Goya', 2008),
 (34, 33, 'Cesar', 1980),
 (35, 12, 'Cesar', 1971),
-(36, 1, 'Goya', 1976),
 (37, 34, 'Saturn', 1984),
 (38, 35, 'Saturn', 2005),
 (39, 5, 'Goya', 2020),
@@ -728,7 +727,7 @@ CREATE TABLE `films` (
 --
 
 INSERT INTO `films` (`ID_film`, `film_name`, `year_of_release`, `country_of_release`, `IMDb_rating`, `RT_rating`) VALUES
-(1, 'BIB203', 1977, 'Switzerland', 21, 4),
+(1, 'A new name', 2049, 'Switzerland', 21, 4),
 (2, 'Wonderful Spring', 2015, 'Germany', 40, 2),
 (3, 'Hot Heat', 2000, 'Czech', 29, 10),
 (4, 'Wonderful Fall', 2008, 'UK', 22, 2),
@@ -1234,7 +1233,12 @@ INSERT INTO `films` (`ID_film`, `film_name`, `year_of_release`, `country_of_rele
 (569, 'film2', 2023, 'Russia', 100, 10),
 (570, 'film2', 2023, 'Russia', 100, 10),
 (571, 'a film', 2022, 'russia', 100, 10),
-(572, 'a film', 2022, 'russia', 100, 10);
+(572, 'a film', 2022, 'russia', 100, 10),
+(573, 'a film', 2022, 'russia', 100, 10),
+(574, 'a film', 2023, 'Russia', 100, 10),
+(575, 'a film', 2023, 'Russia', 100, 10),
+(576, 'a film', 2023, 'Russia', 100, 10),
+(577, 'a film', 2023, 'Russia', 100, 10);
 
 -- --------------------------------------------------------
 
@@ -1762,6 +1766,38 @@ INSERT INTO `films-actors` (`ID_pair`, `ID_actor`, `ID_film`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Структура таблицы `system_pages`
+--
+
+CREATE TABLE `system_pages` (
+  `id` int(11) NOT NULL,
+  `page` varchar(50) NOT NULL,
+  `decription` varchar(255) DEFAULT NULL,
+  `controller` varchar(50) NOT NULL,
+  `handler` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+--
+-- Дамп данных таблицы `system_pages`
+--
+
+INSERT INTO `system_pages` (`id`, `page`, `decription`, `controller`, `handler`) VALUES
+(1, 'listfilms', 'Получение списка фильмов', 'FilmsClass', 'list'),
+(2, 'addfilm', 'Добавить фильм', 'FilmsClass', 'add'),
+(3, 'editfilm', 'Редактировать фильм', 'FilmsClass', 'edit'),
+(4, 'deletefilm', 'Удалить фильм', 'FilmsClass', 'delete'),
+(5, 'getfilm', 'Получить полную инфо о фильме', 'FilmsClass', 'get'),
+(6, 'listactors', 'Получить инфо о всех актерах', 'ActorsClass', 'list'),
+(7, 'getactor', 'Получить полную информацию об актере', 'ActorsClass', 'get'),
+(8, 'addactor', 'Добавить новую запись об актере', 'ActorsClass', 'add'),
+(9, 'editactor', 'Изменить запись об актере', 'ActorsClass', 'edit'),
+(10, 'deleteactor', 'Удалить запись об актере', 'ActorsClass', 'delete'),
+(11, 'login', 'Залогиниться', 'AuthClass', 'login'),
+(12, 'logout', 'Разлогиниться', 'AuthClass', 'logout');
+
+-- --------------------------------------------------------
+
+--
 -- Структура таблицы `users`
 --
 
@@ -1817,6 +1853,13 @@ ALTER TABLE `films-actors`
   ADD KEY `ID_film` (`ID_film`);
 
 --
+-- Индексы таблицы `system_pages`
+--
+ALTER TABLE `system_pages`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `page` (`page`);
+
+--
 -- Индексы таблицы `users`
 --
 ALTER TABLE `users`
@@ -1830,7 +1873,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT для таблицы `actors`
 --
 ALTER TABLE `actors`
-  MODIFY `ID_actor` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=582;
+  MODIFY `ID_actor` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=583;
 
 --
 -- AUTO_INCREMENT для таблицы `actors_family`
@@ -1848,13 +1891,19 @@ ALTER TABLE `awards`
 -- AUTO_INCREMENT для таблицы `films`
 --
 ALTER TABLE `films`
-  MODIFY `ID_film` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=573;
+  MODIFY `ID_film` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=578;
 
 --
 -- AUTO_INCREMENT для таблицы `films-actors`
 --
 ALTER TABLE `films-actors`
   MODIFY `ID_pair` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=506;
+
+--
+-- AUTO_INCREMENT для таблицы `system_pages`
+--
+ALTER TABLE `system_pages`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT для таблицы `users`
